@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_practice</title>
+    <style>
+        a:link
+        {
+            color: aqua;
+            background-color: whitesmoke;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color:blueviolet
+        }
+        a:visited
+        {
+            color: greenyellow;
+        }
+    </style>
+    <link rel="icon" type="image.icon" href="/images/image map.jpg">
+    <style>
+        th,td,table
+        {
+            border: 2px solid blueviolet;
+            border-collapse: collapse;
+        }
+        th,td{
+            border-color: gray;
+        }
+    </style>
+</head>
+<body style="background-color: bisque;">
+    <form action="signin.html" method="get">
+        <div>
+            <label>username</label>
+            <input name="username" placeholder="eg:kural" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="eg:abc@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="password"> password</label>
+            <input type="password" id="password"  name="password" placeholder="eg:123a@bc" minlength="6" required>
+        </div>
+        <br>
+        <div>
+            <label>date of birth</label>
+            <input type="date" name="date of birth" required min="1990" max="2018">
+        </div>
+        <br>
+        <div>
+            <label>details</label>
+            <textarea name=" about" id="about">About ur self </textarea>
+        </div><br>
+        <div>
+            <input type="checkbox">
+            <label>agree the terms</label>
+        </div>
+        <br>
+        <div>
+             <input type="checkbox">
+             <lable>access ur files</lable>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+             <input type="radio" name="gender" id="female">
+             <label for="female">female</label>
+        </div>
+        <div>
+             <input type="radio" name="gender" id="others">
+             <label for="others">others</label>
+        </div>
+        <br>
+             <label>places</label> 
+        <select name="place" id="place">
+             <option value="orathanadu">orathanadu</option>
+             <option value="thanjavur">thanjavur</option>
+             <option value="pinnaiyur">pinnaiyur</option>
+        </select>
+        <br>
+        <br>
+        <div>
+             <label for="file">document</label>
+             <input type="file" name="file" id="file">
+        </div>
+        <br>
+        <div>
+             <button type="submit">go</button>
+             <button type="reset">reset</button>
+        </div>
+    </form>
+    <br>
+    <img src="/images/image map.jpg" alt="laptop,cup and tab" usemap="#imagemap" width="400" height="266">
+    <map name="imagemap">
+         <area shape="rect" coords="381,68,185,187" alt="laptop" href="https://www.computerhope.com/jargon/l/laptop.htm">
+         <area shape="circle" coords="154,105,86" alt="cup" href="https://en.wikipedia.org/wiki/Coffee">
+         <area shape="rect" coords="188,134,84,138" alt="tab" href="https://en.wikipedia.org/wiki/Tablet_computer">
+    </map>
+    <br>
+    <audio controls muted>
+         <source src="Nira-MassTamilan.dev.mp3" type="audio/mp3" >
+     </audio>
+     <br>
+     <video width="400" height="400" controls >
+         <source src="/images/kural video.mp4" type="video/mp4" >
+     </video>
+     <br>
+     <button onclick="document.location='https://www.freepik.com/photos/flower'">hello</button>
+     <br>
+     <br>
+     <a href="https://www.flipkart.com/" target="_blank">flipkart</a>
+     <br>
+     <br>
+     <a href="mailto:kuralanbu25@gmail.com">mail to me</a>
+     <table>
+        <tr>
+            <th>name</th>
+            <th>d.no</th>
+            <th>contact</th>
+            <th> days</th>
+            <th>month</th>
+        </tr>
+        <tr>
+            <td>lavanya</td>
+            <td> 3108</td>
+            <td> 123445</td>
+            <td>7days</td>
+            <td>june</td>
+        </tr>
+        <tr>
+            <td>prithivi</td>
+            <td>2126</td>
+            <td>568908</td>
+            <td>8days</td>
+            <td>july</td>
+        </tr>
+        <tr>
+            <td>aakash</td>
+            <td>2101</td>
+            <td>654893939</td>
+            <td> 10 days</td>
+            <td>may</td>
+        </tr>
+     </table>
+</body>
+</html>
